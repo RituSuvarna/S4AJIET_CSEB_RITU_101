@@ -1,0 +1,18 @@
+class Swapping{
+    public static void main(String[] args) {
+        int power=30;
+        int ninja=20;
+        
+     System.out.println("Before Swapping");
+     System.out.println("Power:"+power);
+     System.out.println("Ninja :"+ninja);   
+     
+        power=power^ninja;
+        ninja=power^ninja;
+        power=power^ninja;
+    
+     System.out.println("After Swapping");
+     System.out.println("Power:"+power);
+     System.out.println("Ninja :"+ninja);   
+    }
+}
