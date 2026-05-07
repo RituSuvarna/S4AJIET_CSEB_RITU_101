@@ -1,4 +1,4 @@
-public class ReverseNumber {
+public class Number {
     public static void main(String[] args) {
         int num = 12121;
         int reverse = 0;
