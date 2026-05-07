@@ -1,0 +1,17 @@
+class Swapping{
+    public static void main(String[] args) {
+        int hinata=30;
+        int naruto=20;
+        int sasuke;
+     System.out.println("Before Swapping");
+     System.out.println("Hinata :"+hinata);
+     System.out.println("Naruto :"+naruto);   
+     
+        sasuke=hinata;
+        hinata=naruto;
+        naruto=sasuke;
+     System.out.println("After Swapping");
+     System.out.println("Hinata :"+hinata);
+     System.out.println("Naruto :"+naruto);   
+    }
+}
