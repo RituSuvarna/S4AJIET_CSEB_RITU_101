@@ -1,6 +1,6 @@
 public class SumOfDigits {
     public static void main(String[] args) {
-        int num = 5678;   // changed number
+        int num = 5678;   
         int sum = 0;
 
         while (num > 0) {
