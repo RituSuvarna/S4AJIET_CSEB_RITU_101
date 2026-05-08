@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int N = 10;
+        int K = 5;
+
+        int currentCandies = N;
+
+        Scanner sc = new Scanner(System.in);
+
+        int order = sc.nextInt();
+
+        if (order <= 0 || order > currentCandies) {
+            System.out.println("INVALID INPUT");
+        } else {
+            currentCandies -= order;
+
+            System.out.println("Number of Candies Sold: " + order);
+
+            if (currentCandies <= K) {
+                currentCandies = N;
+                System.out.println("Jar refilled to full capacity.");
+            }
+
+            System.out.println("Number of Candies available: " + currentCandies);
+        }
+
+        sc.close();
+    }
+}
